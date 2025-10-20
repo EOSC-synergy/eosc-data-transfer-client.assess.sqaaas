@@ -15,50 +15,50 @@ sqa_criteria:
     repos:
       gitlab.cern.ch/batistal/eosc-data-transfer-client git:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-purple-fossa.sh
-        container: qc.acc_sleepy-tangerine-magpie
+        - /usr/bin/env sh .sqa/script.squirrely-cerise-argentino.sh
+        container: qc.acc_hasty-grey-oyster
   QC.Doc:
     repos:
       gitlab.cern.ch/batistal/eosc-data-transfer-client find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-wheat-yak.sh
-        container: qc.doc_wheezy-violet-axolotl
+        - /usr/bin/env sh .sqa/script.zippy-celadon-tarsier.sh
+        container: qc.doc_nippy-brass-blue
       gitlab.cern.ch/batistal/eosc-data-transfer-client git:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-fuchsia-hound.sh
-        container: qc.doc_randy-flax-caterpillar
+        - /usr/bin/env sh .sqa/script.muzzy-silver-gopher.sh
+        container: qc.doc_baggy-red-toucan
       gitlab.cern.ch/batistal/eosc-data-transfer-client markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-brown-maltese.sh
-        container: qc.doc_chewy-tangerine-caracal
+        - /usr/bin/env sh .sqa/script.homey-rose-quokka.sh
+        container: qc.doc_queasy-fuchsia-rattlesnake
   QC.Lic:
     repos:
       gitlab.cern.ch/batistal/eosc-data-transfer-client licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-myrtle-oriole.sh
-        container: qc.lic_sloppy-auburn-bongo
+        - /usr/bin/env sh .sqa/script.lumpy-tangerine-hyrax.sh
+        container: qc.lic_freaky-orchid-kakapo
   QC.Sec:
     repos:
       gitlab.cern.ch/batistal/eosc-data-transfer-client bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-denim-catfish.sh
-        container: qc.sec_bumpy-lemon-wolfhound
+        - /usr/bin/env sh .sqa/script.silly-pear-squid.sh
+        container: qc.sec_queasy-sapphire-dane
   QC.Sty:
     repos:
       gitlab.cern.ch/batistal/eosc-data-transfer-client flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-ivory-bullfrog.sh
-        container: qc.sty_gloppy-olivine-spitz
+        - /usr/bin/env sh .sqa/script.skinny-magenta-moth.sh
+        container: qc.sty_snazzy-platinum-salamander
   QC.Uni:
     repos:
       gitlab.cern.ch/batistal/eosc-data-transfer-client pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-denim-gharial.sh
-        container: qc.uni_paltry-sepia-duck
+        - /usr/bin/env sh .sqa/script.boozy-lemon-monster.sh
+        container: qc.uni_flimsy-sapphire-ocelot
   QC.Ver:
     repos:
       gitlab.cern.ch/batistal/eosc-data-transfer-client get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-linen-beagle.sh
-        container: qc.ver_grumpy-rose-chicken
+        - /usr/bin/env sh .sqa/script.baggy-gamboge-dingo.sh
+        container: qc.ver_skinny-violet-tang
 timeout: 5400
